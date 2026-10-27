@@ -1,5 +1,7 @@
 # leanagents
 
+[![tests](https://github.com/decentralizeallengineering/leanagents/actions/workflows/tests.yml/badge.svg)](https://github.com/decentralizeallengineering/leanagents/actions/workflows/tests.yml) ![license](https://img.shields.io/badge/license-Apache--2.0-blue)
+
 A `PreToolUse` hook on Claude Code's Agent tool. It rewrites default or `general-purpose` subagent calls to small-prompt
 agent types, so far fewer base tokens are spent on every subagent.
 
