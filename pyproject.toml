@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "leanagents"
+version = "0.1.0"
+description = "PreToolUse hook that sends default Claude Code subagent calls to small-prompt agent types."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "Apache-2.0"}
+
+[project.scripts]
+leanagents = "leanagents:main"
+
+[tool.setuptools]
+py-modules = ["leanagents"]
